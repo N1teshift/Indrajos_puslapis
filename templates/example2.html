@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example 2: Dropdown</title>
+</head>
+<body>
+    <h1>Dropdown (išskleidžiamojo meniu) pavyzdys</h1>
+    <form>
+        <label for="fruit">Pasirinkite vaisių:</label>
+        <select id="fruit" name="fruit">
+            <option value="obuolys">Obuolys</option>
+            <option value="bananas">Bananas</option>
+            <option value="arbūzas">Arbūzas</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p><a href="{{ url_for('index') }}">Grįžti</a></p>
+</body>
+</html>
